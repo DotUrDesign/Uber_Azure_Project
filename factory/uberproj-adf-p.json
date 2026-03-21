@@ -1,0 +1,9 @@
+{
+	"name": "uberproj-adf-p",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "82eeed27-db62-437b-a06d-a34959849e01",
+		"tenantId": "c2ade505-1511-49e8-a72d-73e493f6f28d"
+	}
+}
