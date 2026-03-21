@@ -1,0 +1,13 @@
+{
+	"name": "HttpToADF",
+	"properties": {
+		"description": "Connection between HTTP and ADF",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/DotUrDesign/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
