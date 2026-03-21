@@ -1,0 +1,18 @@
+{
+	"name": "EventsData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpToADF",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Uber_Azure_Project/blob/main/Ride_Booking_Code/Uber_Data_Engineering_Project/Data/bulk_rides.json"
+			}
+		},
+		"schema": {}
+	}
+}
