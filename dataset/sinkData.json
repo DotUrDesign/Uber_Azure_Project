@@ -1,0 +1,28 @@
+{
+	"name": "sinkData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADFToADLS",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_file_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@dataset().p_file_name",
+					"type": "Expression"
+				},
+				"folderPath": "ingestion",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
