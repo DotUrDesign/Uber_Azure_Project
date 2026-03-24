@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "Uber_Azure_Project/blob/main/Ride_Booking_Code/Uber_Data_Engineering_Project/Data/@{dataset().p_file_name}.json",
+					"value": "DotUrDesign/Uber_Azure_Project/refs/heads/main/Ride_Booking_Code/Uber_Data_Engineering_Project/Data/@{dataset().p_file_name}.json",
 					"type": "Expression"
 				}
 			}
